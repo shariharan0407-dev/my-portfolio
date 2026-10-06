@@ -4,7 +4,7 @@
 }
 
 .vastra-width {
-  width: calc(100% - 2 * var(--page-gutter));
+  width: min(1080px, calc(100% - 2 * var(--page-gutter)));
   margin-right: auto;
   margin-left: auto;
 }
@@ -44,7 +44,7 @@
 .vastra-hero-art {
   display: grid;
   width: 100%;
-  height: clamp(320px, 40vw, 500px);
+  height: clamp(600px, 50vw, 720px);
   place-items: center;
   overflow: hidden;
   border-radius: 40px;
@@ -53,9 +53,10 @@
 
 .vastra-hero-art img {
   display: block;
-  width: min(520px, 64%);
-  height: 90%;
+  width: min(860px, 100%);
+  height: 100%;
   object-fit: contain;
+  transform: scale(0.8);
 }
 
 .vastra-overview {
@@ -282,7 +283,7 @@
 
   .vastra-hero-inner {
     gap: 36px;
-    width: 100%;
+    width: min(1080px, calc(100% - 2 * var(--page-gutter)));
   }
 
   .vastra-intro h1 {
@@ -298,13 +299,14 @@
 
   .vastra-hero-art {
     height: auto;
-    aspect-ratio: 2.16;
+    aspect-ratio: 0.82;
     border-radius: 28px;
   }
 
   .vastra-hero-art img {
-    width: 54%;
-    height: 90%;
+    width: 125%;
+    height: 100%;
+    max-width: none;
   }
 
   .vastra-overview {

@@ -4,7 +4,7 @@
 }
 
 .sitezump-width {
-  width: calc(100% - 2 * var(--page-gutter));
+  width: min(1080px, calc(100% - 2 * var(--page-gutter)));
   margin-right: auto;
   margin-left: auto;
 }
@@ -42,20 +42,22 @@
 }
 
 .sitezump-hero-art {
-  display: grid;
+  position: relative;
   width: 100%;
-  height: clamp(320px, 40vw, 500px);
-  place-items: center;
+  height: clamp(420px, 42vw, 560px);
   overflow: hidden;
   border-radius: 40px;
   background: #faebbe;
 }
 
 .sitezump-hero-art img {
+  position: absolute;
+  inset: 0;
   display: block;
-  width: min(600px, 72%);
-  height: 90%;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
 }
 
 .sitezump-overview {
@@ -376,7 +378,7 @@
 
   .sitezump-hero-inner {
     gap: 36px;
-    width: 100%;
+    width: min(1080px, calc(100% - 2 * var(--page-gutter)));
   }
 
   .sitezump-intro h1 {
@@ -392,13 +394,8 @@
 
   .sitezump-hero-art {
     height: auto;
-    aspect-ratio: 2.16;
+    aspect-ratio: 1.5;
     border-radius: 28px;
-  }
-
-  .sitezump-hero-art img {
-    width: 78%;
-    height: 90%;
   }
 
   .sitezump-overview {

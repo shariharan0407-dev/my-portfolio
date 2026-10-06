@@ -72,7 +72,9 @@ function HomePage() {
                 <span />
                 <span />
               </div>
-              <img className="avatar" src={avatar} alt="Illustrated portrait of Hari Haran" />
+              <div className="avatar-crop">
+                <img className="avatar" src={avatar} alt="Illustrated portrait of Hari Haran" />
+              </div>
               <div className="figma-cursor" aria-hidden="true">
                 <img src={cursor} alt="" />
                 <span>Hari Pixels</span>
