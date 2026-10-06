@@ -1,0 +1,393 @@
+.rcx-case {
+  color: #1b1b1b;
+  background: #fff;
+}
+
+.rcx-width {
+  width: calc(100% - 2 * var(--page-gutter));
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.rcx-hero {
+  padding: 78px 0 52px;
+}
+
+.rcx-hero-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.rcx-intro {
+  width: min(744px, 100%);
+  text-align: center;
+}
+
+.rcx-intro h1 {
+  margin: 0 0 12px;
+  color: #1b1b1b;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.rcx-intro p {
+  margin: 0;
+  color: #434343;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.rcx-hero-art {
+  display: grid;
+  width: 100%;
+  height: clamp(320px, 40vw, 500px);
+  place-items: center;
+  overflow: hidden;
+  border-radius: 40px;
+  background: #efdcf5;
+}
+
+.rcx-hero-art img {
+  display: block;
+  width: min(611px, 70%);
+  height: 90%;
+  object-fit: contain;
+}
+
+.rcx-overview {
+  padding-top: 54px;
+  padding-bottom: 62px;
+}
+
+.rcx-overview h2,
+.rcx-section-heading h2,
+.rcx-impact h2 {
+  margin: 0;
+  color: #1b1b1b;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.rcx-overview h2 {
+  margin-bottom: 20px;
+}
+
+.rcx-overview p {
+  margin: 0;
+  padding-left: 10px;
+  border-left: 3px solid #1b56fd;
+  color: #434343;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.rcx-role {
+  padding: 64px 0;
+  background: #f9fafb;
+}
+
+.rcx-section-heading {
+  margin-bottom: 36px;
+}
+
+.rcx-section-heading h2 {
+  margin-bottom: 14px;
+}
+
+.rcx-section-heading p {
+  margin: 0;
+  color: #434343;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.rcx-section-heading strong {
+  color: #1b56fd;
+  font-weight: 600;
+}
+
+.rcx-role-list {
+  display: grid;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rcx-role-list li {
+  display: grid;
+  grid-template-columns: 60px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.rcx-role-list img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.rcx-role-list h3,
+.rcx-story-copy h2 {
+  margin: 0 0 6px;
+  color: #1b1b1b;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.rcx-role-list p,
+.rcx-story-copy p,
+.rcx-impact-copy p,
+.rcx-metrics p {
+  margin: 0;
+  color: #434343;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.rcx-story {
+  padding: 76px 0;
+}
+
+.rcx-tinted {
+  background: #f4fbff;
+}
+
+.rcx-story-copy {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.rcx-screens {
+  display: grid;
+  gap: 21px;
+  align-items: start;
+}
+
+.rcx-screens-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.rcx-screens-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.rcx-screens-4,
+.rcx-screens-5 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.rcx-screen {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.rcx-screen-bar {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  gap: 4px;
+  padding: 0 9px;
+  border-bottom: 1px solid #e6e6e6;
+  background: #eaf4ff;
+}
+
+.rcx-screen-bar i {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #a9bcd6;
+}
+
+.rcx-screen img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.rcx-impact {
+  padding: 74px 0 76px;
+}
+
+.rcx-impact h2 {
+  margin-bottom: 12px;
+  color: #f62f10;
+}
+
+.rcx-impact-copy {
+  display: grid;
+  gap: 10px;
+}
+
+.rcx-impact-copy em {
+  color: #1b56fd;
+}
+
+.rcx-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 90px;
+  margin-top: 50px;
+}
+
+.rcx-metrics strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #1b56fd;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.rcx-metrics > div:nth-child(2) strong {
+  color: #f85b3a;
+}
+
+.rcx-metrics > div:nth-child(3) strong {
+  color: #1b9d66;
+}
+
+@media (max-width: 860px) {
+  .rcx-role,
+  .rcx-story,
+  .rcx-impact {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .rcx-screens-4,
+  .rcx-screens-5 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .rcx-metrics {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 620px) {
+  .rcx-width {
+    width: calc(100% - 2 * var(--page-gutter));
+  }
+
+  .rcx-hero {
+    padding: 42px 0 28px;
+  }
+
+  .rcx-hero-inner {
+    gap: 36px;
+    width: 100%;
+  }
+
+  .rcx-intro h1 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .rcx-intro p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .rcx-hero-art {
+    height: auto;
+    aspect-ratio: 2.16;
+    border-radius: 28px;
+  }
+
+  .rcx-hero-art img {
+    width: 70%;
+    height: 90%;
+  }
+
+  .rcx-overview {
+    padding-top: 36px;
+    padding-bottom: 42px;
+  }
+
+  .rcx-overview h2,
+  .rcx-section-heading h2,
+  .rcx-impact h2 {
+    font-size: 18px;
+  }
+
+  .rcx-overview p,
+  .rcx-role-list p,
+  .rcx-story-copy p,
+  .rcx-impact-copy p,
+  .rcx-metrics p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .rcx-role,
+  .rcx-story,
+  .rcx-impact {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  .rcx-role-list {
+    gap: 26px;
+  }
+
+  .rcx-role-list li {
+    grid-template-columns: 42px minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .rcx-role-list img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .rcx-story-copy {
+    margin-bottom: 24px;
+  }
+
+  .rcx-screens-2,
+  .rcx-screens-3,
+  .rcx-screens-4,
+  .rcx-screens-5,
+  .rcx-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .rcx-metrics {
+    margin-top: 32px;
+  }
+
+  .rcx-metrics strong {
+    margin-bottom: 6px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 360px) {
+  .rcx-screens-2,
+  .rcx-screens-3,
+  .rcx-screens-4,
+  .rcx-screens-5,
+  .rcx-metrics {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

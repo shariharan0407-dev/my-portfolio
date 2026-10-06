@@ -1,0 +1,378 @@
+.vastra-case {
+  color: #1b1b1b;
+  background: #fff;
+}
+
+.vastra-width {
+  width: calc(100% - 2 * var(--page-gutter));
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.vastra-hero {
+  padding: 78px 0 52px;
+}
+
+.vastra-hero-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.vastra-intro {
+  width: min(744px, 100%);
+  text-align: center;
+}
+
+.vastra-intro h1 {
+  margin: 0 0 12px;
+  color: #1b1b1b;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.vastra-intro p {
+  margin: 0;
+  color: #434343;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.vastra-hero-art {
+  display: grid;
+  width: 100%;
+  height: clamp(320px, 40vw, 500px);
+  place-items: center;
+  overflow: hidden;
+  border-radius: 40px;
+  background: #bcc9ef;
+}
+
+.vastra-hero-art img {
+  display: block;
+  width: min(520px, 64%);
+  height: 90%;
+  object-fit: contain;
+}
+
+.vastra-overview {
+  padding-top: 54px;
+  padding-bottom: 62px;
+}
+
+.vastra-overview h2,
+.vastra-section-heading h2,
+.vastra-impact h2 {
+  margin: 0;
+  color: #1b1b1b;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.vastra-overview h2 {
+  margin-bottom: 20px;
+}
+
+.vastra-overview p {
+  margin: 0;
+  padding-left: 10px;
+  border-left: 3px solid #1b56fd;
+  color: #434343;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.vastra-role {
+  padding: 64px 0;
+  background: #f9fafb;
+}
+
+.vastra-section-heading {
+  margin-bottom: 36px;
+}
+
+.vastra-section-heading h2 {
+  margin-bottom: 14px;
+}
+
+.vastra-section-heading p {
+  margin: 0;
+  color: #434343;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.vastra-section-heading strong {
+  color: #1b56fd;
+  font-weight: 600;
+}
+
+.vastra-role-list {
+  display: grid;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vastra-role-list li {
+  display: grid;
+  grid-template-columns: 60px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.vastra-role-list img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.vastra-role-list h3,
+.vastra-story-copy h2,
+.vastra-impact h2 {
+  margin: 0;
+  color: #1b1b1b;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.vastra-role-list p,
+.vastra-story-copy p,
+.vastra-impact-copy p,
+.vastra-metrics p {
+  margin: 0;
+  color: #434343;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.vastra-story {
+  padding: 76px 0;
+}
+
+.vastra-tinted {
+  background: #f4fbff;
+}
+
+.vastra-story-copy {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.vastra-story-copy h2 {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.vastra-screens {
+  display: grid;
+  gap: 40px;
+  align-items: start;
+}
+
+.vastra-screens-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.vastra-screens-2 {
+  grid-template-columns: repeat(2, minmax(0, 240px));
+  justify-content: center;
+}
+
+.vastra-phone-screen {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.vastra-phone-bar {
+  height: 16px;
+  border-bottom: 1px solid #e6e6e6;
+  background: #eaf4ff;
+}
+
+.vastra-phone-screen img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.vastra-impact {
+  padding: 74px 0 76px;
+}
+
+.vastra-impact h2 {
+  margin-bottom: 12px;
+  color: #f62f10;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.vastra-impact-copy {
+  display: grid;
+  gap: 10px;
+}
+
+.vastra-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 90px;
+  margin-top: 50px;
+}
+
+.vastra-metrics strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #1b56fd;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.vastra-metrics > div:nth-child(2) strong {
+  color: #f85b3a;
+}
+
+.vastra-metrics > div:nth-child(3) strong {
+  color: #1b9d66;
+}
+
+@media (max-width: 860px) {
+  .vastra-role,
+  .vastra-story,
+  .vastra-impact {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .vastra-screens-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+  }
+
+  .vastra-metrics {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 620px) {
+  .vastra-width {
+    width: calc(100% - 2 * var(--page-gutter));
+  }
+
+  .vastra-hero {
+    padding: 42px 0 28px;
+  }
+
+  .vastra-hero-inner {
+    gap: 36px;
+    width: 100%;
+  }
+
+  .vastra-intro h1 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .vastra-intro p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .vastra-hero-art {
+    height: auto;
+    aspect-ratio: 2.16;
+    border-radius: 28px;
+  }
+
+  .vastra-hero-art img {
+    width: 54%;
+    height: 90%;
+  }
+
+  .vastra-overview {
+    padding-top: 36px;
+    padding-bottom: 42px;
+  }
+
+  .vastra-overview h2,
+  .vastra-section-heading h2,
+  .vastra-impact h2 {
+    font-size: 18px;
+  }
+
+  .vastra-overview p,
+  .vastra-role-list p,
+  .vastra-story-copy p,
+  .vastra-impact-copy p,
+  .vastra-metrics p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .vastra-role,
+  .vastra-story,
+  .vastra-impact {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  .vastra-role-list {
+    gap: 26px;
+  }
+
+  .vastra-role-list li {
+    grid-template-columns: 42px minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .vastra-role-list img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .vastra-story-copy {
+    margin-bottom: 24px;
+  }
+
+  .vastra-screens-4,
+  .vastra-screens-2,
+  .vastra-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .vastra-metrics {
+    margin-top: 32px;
+  }
+
+  .vastra-metrics strong {
+    margin-bottom: 6px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 360px) {
+  .vastra-screens-4,
+  .vastra-screens-2,
+  .vastra-metrics {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

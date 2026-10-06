@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Lexend+Deca:wght@300;400;500;600&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  --page-gutter: clamp(20px, 4vw, 60px);
+  color: #1b1b1b;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible {
+  outline: 2px solid #1b56fd;
+  outline-offset: 4px;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 620px) {
+  :root {
+    --page-gutter: 16px;
+  }
+
+  html {
+    scroll-padding-top: 68px;
+  }
+}
