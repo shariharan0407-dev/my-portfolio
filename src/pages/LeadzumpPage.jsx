@@ -1,5 +1,4 @@
 import heroImage from '../assets/portfolio/leadzump.png'
-import footerFigure from '../assets/portfolio/footer-figure.png'
 
 const productAssets = import.meta.glob('../assets/portfolio/leadzump/*.png', {
   eager: true,
@@ -104,14 +103,10 @@ function LeadzumpPage() {
               </div>
             </li>
           </ul>
-          <div className="leadzump-mobile-actions">
-            <a href="#leadzump-designs">View complete case study in web version</a>
-            <a className="leadzump-about-button" href="/about">Know about hari</a>
-          </div>
         </div>
       </section>
 
-      <div className="leadzump-desktop-details" id="leadzump-designs">
+      <div id="leadzump-designs">
         <section className="leadzump-content-width leadzump-feature-row">
           <ProductScreen
             name="deals-kanban"
